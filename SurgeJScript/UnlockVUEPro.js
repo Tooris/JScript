@@ -1,6 +1,12 @@
-var body = $response.body;
-var obj = JSON.parse(body);
+const path1 = '/api/v1/users/';
 
-obj.isPremium = true;
-body = JSON.stringify(obj);
-$done(body);
+var body = $response.body;
+var url = $request.url;
+if(url.index0f(path1) != -1)
+{
+	let obj = JSON.parse(body);
+	obj.data.isPremium = true;
+	body = JSON.stringify(obj);
+}
+$done({body});
+
