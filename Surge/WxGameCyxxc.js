@@ -9,9 +9,9 @@
 var body = $response.body;
 var url = $request.url;
 
-const getTip = '/game/player/reenter';
+const Tip = '/game/player/reenter';
 
-if(url.indexOf(getTip) != -1)
+if(url.indexOf(Tip) != -1)
 {
   let obj = JSON.parse(body);
   obj.data.eConf.getTip = 999999999;
