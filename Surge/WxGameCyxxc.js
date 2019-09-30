@@ -9,7 +9,7 @@
 var body = $response.body;
 var url = $request.url;
 
-const getTip = '/game/basic/login';
+const getTip = '/game/player/reenter';
 
 if(url.indexOf(getTip) != -1)
 {
