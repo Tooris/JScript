@@ -1,9 +1,6 @@
-//let url = $request.url;
-let body = JSON.parse($response.body);
-let user = '/api/v1/users/self';
-if(url.index0f(user) != -1)
-{
-	body.data.isPremium = true;
-	body = JSON.stringify(body);
-}
-$done({body});
+var body = $response.body;
+var obj = JSON.parse(body);
+
+obj.isPremium = true;
+body = JSON.stringify(obj);
+$done(body);
