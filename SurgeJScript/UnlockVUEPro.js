@@ -1,3 +1,4 @@
-let obj = JSON_parse($response.body);
-obj.data.isPremium = true;
-$done({body: JSON.stringify(obj)});
+//UPDATE
+let pub = JSON.parse($response.body);
+pub.data.isPremium = true;
+$done({body: JSON.stringify(pub)});
