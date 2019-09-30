@@ -1,1 +1,1 @@
-"isPremium":\/w+" "isPremium": true"
+"isPremium":false" "isPremium":true"
