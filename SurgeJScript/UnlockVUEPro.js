@@ -6,6 +6,7 @@ if(url.index0f(path1) != -1)
 {
 	let obj = JSON.parse(body);
 	obj.data.isPremium = true;
+	obj.data.location = "在你妈肚子里";
 	body = JSON.stringify(obj);
 }
 $done({body});
