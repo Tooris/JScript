@@ -1,4 +1,4 @@
-const path1 = '/api/v1/users/';
+const path1 = '/api/v1/users/self';
 var body = $response.body;
 var url = $request.url;
 let obj = JSON.parse(body);
