@@ -1,5 +1,5 @@
 /*
-http-response ^https?:\/\/live\.infltr\.us\/parse\/functions\/verifySubscriptionUsingReceipt requires-body=1,max-size=0,script-path=
+http-response ^https?:\/\/live\.infltr\.us\/parse\/functions\/verifySubscriptionUsingReceipt requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Tooris/JScript/master/Surge/UnlockInfltr.js
 
 */
 
