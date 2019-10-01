@@ -5,7 +5,7 @@
 var body = $response.body;
 var url = $request.url;
 const stickers = '/api/';
-if(url.indexOf(body))
+if(url.indexOf(body) != -1)
 {
 	let obj = JSON.parse(body);
 	obj.data.stickers["pro"] = false;
