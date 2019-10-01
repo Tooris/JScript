@@ -1,3 +1,8 @@
+/*
+http-response ^https?:\/\/live\.infltr\.us\/parse\/functions\/verifySubscriptionUsingReceipt requires-body=1,max-size=0,script-path=
+
+*/
+
 var body = $response.body;
 var url = $request.url;
 
