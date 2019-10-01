@@ -8,7 +8,7 @@ const stickers = '/api/';
 if(url.indexOf(body) != -1)
 {
 	let obj = JSON.parse(body);
-	obj.data.stickers["pro"] = false;
+	obj.data.stickers.pro = false;
 	body = JSON.stringify(obj);
 }
 $done({body});
