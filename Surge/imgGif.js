@@ -4,7 +4,7 @@
 */
 var body = $response.body;
 var url = $request.url;
-const stickers = '/api/stickers.json';
+const stickers = '/api/';
 if(url.indexOf(body))
 {
 	let obj = JSON.parse(body);
